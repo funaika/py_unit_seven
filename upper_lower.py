@@ -1,7 +1,10 @@
 
-
 def main():
-    pass
+    getInput = input("enter any word")
+    upper = getInput.upper()
+    lower = getInput.lower()
 
-if __name__ == '__main__':
-    main()
+    print(upper)
+    print(lower)
+
+main()
